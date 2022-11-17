@@ -29,7 +29,7 @@ const MovieItem = props => {
             </button>
           </div>
           <div>
-            <ReactPlayer width="540px" height="360px" url={item.videoUrl} />
+            <ReactPlayer width="640px" height="360px" url={item.videoUrl} />
           </div>
         </div>
       )}
